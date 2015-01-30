@@ -1,4 +1,4 @@
-sset :stage, :production
+set :stage, :production
 
 server '54.203.255.211',
     user: 'ubuntu',
