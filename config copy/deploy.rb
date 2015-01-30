@@ -34,11 +34,9 @@ namespace :assets do
   task :build do
     on roles(:web) do
       within release_path do
-        #within 'wp-content/themes/ideum' do
-          execute :npm, :install
-          execute :bower, :install
-          execute :gulp
-        #end
+        execute :npm, :install
+        execute :bower, :install
+        execute :gulp
       end
     end
   end

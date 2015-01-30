@@ -2,7 +2,7 @@ sset :stage, :production
 
 server '54.203.255.211',
     user: 'ubuntu',
-    roles: %w{web app db},
+    roles: %w{web app},
     ssh_options: { forward_agent: true }
 
 set :deploy_to, '/var/www/gestureworks/public'
