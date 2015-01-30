@@ -1,4 +1,4 @@
-#set :stage, :staging
+set :stage, :staging
 
 #server 'next.ideum.com',
 #    user: 'ubuntu',
