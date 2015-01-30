@@ -1,0 +1,37 @@
+Redirect permanent /pages/community-main-site                      	 http://gestureworks.com
+Redirect permanent /collections/all                                	 http://gestureworks.com
+Redirect permanent /pages/core-home                                	 http://gestureworks.com/core
+Redirect permanent /pages/core-features                            	 http://gestureworks.com/core
+Redirect permanent /pages/core-features-comparison                 	 http://gestureworks.com/core
+Redirect permanent /pages/core-features-publishing                 	 http://gestureworks.com/core
+Redirect permanent /pages/core-features-gallery                    	 http://gestureworks.com/core
+Redirect permanent /pages/core-community                           	 http://gestureworks.com/core
+Redirect permanent /pages/flash-home                               	 http://gestureworks.com/flash
+Redirect permanent /pages/flash-community                          	 http://gestureworks.com/flash
+Redirect permanent /pages/flash-features                           	 http://gestureworks.com/flash
+Redirect permanent /pages/flash-features-comparison                	 http://gestureworks.com/flash
+Redirect permanent /pages/flash-features-publishing                	 http://gestureworks.com/flash
+Redirect permanent /pages/flash-features-gestures                  	 http://gestureworks.com/flash
+Redirect permanent /pages/flash-features-components                	 http://gestureworks.com/flash
+Redirect permanent /pages/flash-features-gallery                   	 http://gestureworks.com/flash
+Redirect permanent /pages/gesturekey-home                          	 http://gestureworks.com/gesturekey
+Redirect permanent /pages/gesturekey-community                     	 http://gestureworks.com/gesturekey
+Redirect permanent /pages/gesturekey-home                          	 http://gestureworks.com/gesturekey
+Redirect permanent /pages/gesturekey-features-features-table       	 http://gestureworks.com/gesturekey
+Redirect permanent /pages/gesturekey-features-gestures             	 http://gestureworks.com/gesturekey
+Redirect permanent /pages/gesturekey-features-gallery              	 http://gestureworks.com/gesturekey
+Redirect permanent /pages/core-features-gestures                   	 http://gestureworks.com/icons-fonts
+Redirect permanent /pages/services                                 	 http://gestureworks.com/creative-services
+Redirect permanent /blogs/built-with-gestureworks                  	 http://gestureworks.com/creative-services
+Redirect permanent /pages/about-main-site                          	 http://gestureworks.com/about
+Redirect permanent /pages/main-site-about-partners                 	 http://gestureworks.com/about
+Redirect permanent /pages/contact                                  	 http://gestureworks.com/contact
+
+Redirect permanent /blogs/news                                     	 http://www.tumblr.com/blog/gestureworks-hci
+
+Redirect permanent /blogs/tutorials                                	 http://wiki.gestureworks.com/
+Redirect permanent /pages/gesturekey-documentation                 	 http://wiki.gestureworks.com/index.php/GestureKey:GestureKey
+Redirect permanent /pages/gesturekey-documentation-requirements    	 http://wiki.gestureworks.com/index.php/GestureKey:GestureKey_Requirements
+Redirect permanent /pages/documentation-flash                      	 http://wiki.gestureworks.com/index.php/GestureWorksFlash:GestureWorks_Flash
+Redirect permanent /pages/core-documentation                       	 http://wiki.gestureworks.com/index.php/GestureWorksCore:GestureWorks_Core
+

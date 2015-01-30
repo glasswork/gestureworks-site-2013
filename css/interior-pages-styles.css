@@ -1,0 +1,305 @@
+/* interior page styles */
+
+/* layout adjustments */
+
+#icons-fonts .page-header {
+  background: #34465d url('../img/page-header-icons-fonts-1200x99.jpg') no-repeat 0 0;
+}	
+
+#creative-services .page-header {
+  background: #34465d url('../img/page-header-creative-services-1200x99.jpg') no-repeat 0 0;
+}
+
+#contact .page-header {
+  background: #34465d url('../img/page-header-contact-1200x99.jpg') no-repeat 0 0;
+}
+
+#core .page-header {
+  background: #34465d url('../img/page-header-core-1200x99.jpg') no-repeat 0 0;
+}
+
+#some-page .page-header {
+  background: #34465d url('../img/page-header-icons-fonts-1200x99.jpg') no-repeat 0 0;
+}
+
+.page-header {
+  height:99px;
+  position:relative;
+  width:100%;
+}	
+
+header.page-header h1{
+ margin-left:80px;
+}
+
+main .container{
+  background-color:#fff;
+  margin:0 auto;
+  width:1200px;
+}
+
+.full { 
+  width:1040px;
+}
+
+.page-header h1 {
+  color:#fff;
+  font-family:'Raleway-ExtraLight', Helvetica, Arial, sans-serif;
+  font-size:48px;
+  font-weight:200 !important;
+  margin:0;
+  position: absolute;
+  bottom:6px;
+  text-shadow: 1px 1px 1px darkgray;
+}
+
+section {
+  padding:58px 80px 50px 80px;
+  width:1040px;
+}
+
+hr.sectionSeparator { 
+  color:#e7e7e7;
+  height:1px;
+  margin:0 auto;
+  width:86.65%;
+}
+
+.interior.textLeft {
+  float:left;
+  height:100%;
+  width:640px;
+}
+.interior.textLeft.SM {
+  width:600px;
+}
+.interior.imgRight {
+  float:right;
+  padding-top:25px;
+  text-align: center;
+  vertical-align: middle;
+  width:400px;
+}
+.interior.imgRight.LG {
+  width:420px;
+}
+.caption { color:#666; font-family: Arial, Helvetica, sans-serif; font-size:12px; font-style: italic; }
+section article {
+  position:relative;
+}
+section h2 {
+  color:#333;
+  font-family:'Raleway-SemiBold', Helvetica, Arial, sans-serif;
+  font-size:30px;
+  width:95%;
+}
+
+section article .fullWidthImageWithText {
+  background:transparent url('../img/workshop-1040x292.jpg') no-repeat 0 0;
+  clear:both;
+  color:#fff;
+  display:block;
+  margin-top:20px;
+  width:100%;
+}
+
+section article .fullWidthImageWithText.workshop {
+  background:transparent url('../img/workshop-1040x292.jpg') no-repeat 0 0;
+  height:292px;
+}
+
+section article .fullWidthImageWithText.workshop p {
+  color:#fff;
+  padding-top:60px;
+  margin:0 auto;
+  width:55%;
+}
+
+section p {
+  color:#666;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:18px;
+  line-height: 24px;  
+  width:95%;
+}
+
+
+
+section article .threeColumnWrap {
+  margin-top:30px;
+  overflow-x:hidden;
+  width:1040px;
+}
+
+section article .threeColumnWrap .column {
+  float:left;
+  margin-right:20px;
+  overflow-x:hidden;
+  width:333px;
+}
+section article .threeColumnWrap .column.last {margin:0 0 0 1px;}
+
+section article .threeColumnWrap .column p.caption {margin-top:4px;}
+
+section article .threeColumnWrap a:hover {opacity:0.8;}
+
+
+section a {
+  color:#1c97ff !important;
+  text-decoration: none;  
+}
+section a:hover {
+  border-bottom:1px dotted #1c97ff;
+}
+
+.downloadButton {
+  background-color: #fff;
+  border:2px solid #1c97ff;
+  border-radius:8px;  
+  color:#1c97ff;
+  float:left;
+  margin:12px 25px 12px 0;
+  padding:10px 12px;
+  text-align: left;
+}
+.downloadButton:hover {opacity:0.8; border:2px solid #ccc;}
+.downloadButton .downloadTitle { font-family:'Raleway-SemiBold', Helvetica, Arial, sans-serif; font-size:18px; line-height: 18px; }
+.downloadButton .downloadDetails { font-family:'Raleway', Helvetica, Arial, sans-serif; font-size:12px; line-height: 18px; }
+.downloadButton .downloadSize { font-family:Arial, Helvetica, sans-serif; font-size:12px; line-height: 18px; }
+
+
+
+
+form { background-color: #f4f0f5; border:1px solid #ccc; box-shadow: 0 12px 8px -6px #e7e7e7; margin-bottom:30px; position:relative;}
+form ul { list-style:none; margin:0; padding:20px 30px;}
+form ul li { list-style-type:none; text-align: left;}
+form ul li label { color:#888; display:inline-block; font-family:Arial, Helvetica, sans-serif; font-size:18px; margin-bottom:4px; }
+form ul li input { background-color:#f0eef1; border:1px solid #ccc; border-radius:8px; color:#888; font-family:Arial, Helvetica, sans-serif; font-size:18px; height:36px; margin-bottom:16px; padding:0 4%; width:92%; }
+form ul li textarea { background-color:#f0eef1; border:1px solid #ccc; border-radius:8px;; color:#888; font-family:Arial, Helvetica, sans-serif; font-size:18px; height:100px; margin-bottom:24px; padding:4%; width:92%; }
+form ul li.twoColumn label { float:left; padding-top:6px;width:39%; }
+form ul li.twoColumn input { float:right; padding:0 4%; width:52%; }
+form ul li input.submit.btn { background-color: #545785; border-radius: 0px; color:#fff; display:block; font-family:'Raleway-SemiBold', Helvetica, Arial, sans-serif; font-size:22px; height:40px; bottom:-40px; right:55px; position:absolute; width: 285px; }
+form ul li input.submit.btn:hover {opacity:0.8;}
+
+
+/* -- Error -- */
+  #error .page-header {
+	  background: url("../img/page-header-terms-of-use-1200x99.jpg") left top;
+  }
+
+  /* -- Terms of Use -- */
+  #terms_of_use .page-header {
+	  background: url("../img/page-header-terms-of-use-1200x99.jpg") left top;
+  }
+
+  #terms_of_use h3 {
+	  color: #666;
+	  font-size: 18px;
+	  text-transform: uppercase;
+  }
+  
+  #terms_of_use main li {
+	  color: #666;
+	  font-size: 0.95em;
+	  margin-bottom: 8px;
+	  line-height: 1.35em;
+  }
+  
+  /* -- GestureKey -- */
+  #gesturekey .page-header {
+	  background: url("../img/page-header-gesturekey-1200x99.jpg") left top no-repeat;
+  }
+
+  /* -- GestureWorks Flash -- */
+  #gestureworks-flash .page-header {
+	  background: url("../img/page-header-gestureworks-flash-1200x99.jpg") left top no-repeat;
+  }
+
+  /* -- About -- */
+  #about section {
+	  padding-top: 42px;
+	  padding-bottom: 42px;
+  }
+
+  #about .page-header {
+	  background: url("../img/page-header-about-1200x99.jpg") left top no-repeat;
+  }
+
+  #about #bg-about-home {
+	  background: url("../img/about-home.jpg") right center no-repeat;
+  }
+
+  #about #bg-what-is-gw {
+	  background: url("../img/about-gw-atom.png") 550px center no-repeat;
+  }
+  
+  #about #bg-gestureworks-devices {
+	  background: url("../img/about-gw-molecule.png") 700px -44px no-repeat;
+  }
+
+  #about #bg-your-language {
+	  background: url("../img/about-gw-languages.png") 710px center no-repeat;
+  }
+    
+  /* -- Letter Container -- */
+  #letterContainer {
+	  width: 791px;
+	  background: #fffef6 url("../img/letter-background.jpg") center top repeat-y;
+	  margin: 0 auto;
+  }
+  
+  #letterContainer #inner {
+	  background: url("../img/letter-top.jpg") center top no-repeat;
+	  padding: 95px 36px 30px 36px;
+  }
+
+  section #letterContainer a,
+  section #letterContainer a:link,
+  section #letterContainer a:visited,
+  section #letterContainer a:active {
+	  color: #5e5e5e !important;
+	  font-weight: 600;
+	  text-decoration: underline;
+  }
+  
+  section #letterContainer a:hover {
+	  color: #111 !important;
+	  background: none;
+  }
+  
+  #letterContainer p {
+	  color: #6c6c6c;
+	  font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  
+  #letterContainer #signature {
+	  color: #444;
+	  font-style: italic;
+	  font-weight: bold;
+  }
+  
+  #letterContainer #bottom {
+	  background: url("../img/letter-bottom.jpg") center bottom no-repeat;
+  }
+
+  #letterContainer .logo {
+	  display: block;
+	  width: 100%;
+	  margin: 30px 0;
+	  text-align: center;
+  }
+  
+  #letterContainer #logo-gestureKey {
+	  height: 69px;
+	  background: url("../img/letter-logo-gesturekey.png") center center no-repeat;
+  }
+
+  #letterContainer #logo-gameplay {
+	  height: 79px;
+	  background: url("../img/letter-logo-gameplay.png") center center no-repeat;
+  }
+  
+  #letterContainer #logo-flash-to-openexhibits {
+	  height: 79px;
+	  background: url("../img/letter-logo-flash-to-openexhibits.png") center center no-repeat;
+  }  

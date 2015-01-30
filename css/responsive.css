@@ -1,0 +1,749 @@
+/* ==|== media queries ====================================================== */
+
+@media only screen and (min-width: 480px) {
+
+/* ====================
+    INTERMEDIATE: Menu
+   ==================== */
+	
+	nav a{
+		float:right;
+		margin:0 1.7%;
+		padding:20px 2%;
+		margin-bottom:0;
+	}
+	
+	nav li:first-child a{ margin-left:0;  }
+	nav li:last-child  a{ margin-right:0; }
+	
+/* ========================
+    INTERMEDIATE: IE Fixes
+   ======================== */
+
+	nav ul li{
+		display:block;
+	}	
+	.oldie nav a{
+		margin:0 0.7%;		
+	}
+	
+}
+
+@media only screen and (min-width: 768px) {
+
+  /* ====================
+    WIDE: CSS3 Effects
+   ==================== */
+
+	#header-container,
+	#main aside{
+		
+	}
+
+  /* ============
+    WIDE: Menu
+   ============ */
+	
+	#title{
+		float:left;
+	}
+
+
+  /* ============
+    WIDE: Main
+   ============ */
+
+	#main article{
+		float:left;
+		width:57%;
+	}
+		
+	#main aside{
+		float:right;
+		width:28%;
+	}
+	
+}
+
+@media (max-width: 767px) {
+
+  #header-container { width:398px; }
+  #header-container .wrapper { width:398px; }
+  
+  .phoneOnly {display:block !important;}
+  .mobileOnly {display:none !important;}
+  .desktopOnly {display:none !important;}
+  .desktopAndMobile{display:none !important;}
+  .phoneAndMobile{display:block !important;}
+
+  /* ====================
+    INTERMEDIATE: Menu
+   ==================== */
+  #main-menu { clear:both; }
+  nav { float:left !important; width:398px; }
+  nav ul {float: left; margin: 0; padding: 0; width: 398px;}
+  nav ul li { clear: both; width: 100%;}
+  nav ul li a { background-color: #e7e7e7; float:left; margin:0 0 1px 0; padding:2%;text-align:left; width: 96%; }  	
+  nav li:first-child a{ margin-left:0;  }
+  nav li:last-child  a{ margin-right:0; }
+  	
+  /* ========================
+      INTERMEDIATE: IE Fixes
+     ======================== */
+  
+	nav ul li{
+		display:block;
+	}	
+	.oldie nav a{
+		margin:0 0.7%;		
+	}
+  	
+  
+
+  /* interior and page-specific mods */
+  #icons-fonts .page-header {
+    max-width:398px;
+    overflow: hidden;
+  }
+  header.page-header h1 {
+    font-size:40px;
+    margin: 0px;
+    text-align:center;
+    width:100%;
+  }
+  main .container {
+    max-width:398px;
+  }
+  section {
+    padding: 25px 20px;
+    width: 358px;
+  }
+  section h2 {
+    margin-top:20px !important;
+  }
+  .interior.textLeft {
+    float: left;
+    height: 100%;
+    width: 100%;
+  }
+  .interior.imgRight {
+    float: left;
+    width: 358px;
+  }
+  .interior.imgRight img {
+    max-width:358px;
+  }
+  .interior.textLeft.SM {
+    float: left;
+    width: 358px;
+  }
+  .clearTitle { margin-top:0;}
+  
+  .interior.imgRight.LG {
+    float: left;
+    width: 358px;
+  }
+  
+  .caption {text-align: left;}
+  
+  
+  
+  /* home and general mods */
+  body {
+    background-color: #e5e7ea !important;
+    border-left:2px solid #fff;
+    border-right:2px solid #fff;
+    margin: 0 auto;
+    width: 398px;
+  }
+
+  .colThird.center {
+    border-bottom:2px solid #fff;
+    border-left:0px !important;
+    border-right:0px !important;
+    border-top:2px solid #fff;
+    max-width:100%; 
+    width:398px !important;
+  }
+  
+  section.thirds {
+    padding:0 !important;
+    width:398px !important;
+  }
+  
+  .wrapper {
+    width: 347px;
+  }
+  
+  .slider {
+    width:398px; padding:0; 
+  }
+  
+  .full {
+    max-width:100% !important;
+  }
+  
+  section img.sectionLogo {
+    max-width:100%;
+  }
+  
+  /* home only version */
+  .gameplay-controller {
+    background: transparent url('../img/gp-controller-bg-398x600.jpg') no-repeat 0 0; background-position-x: 0px !important;
+  }  
+  .gameplay-controller.full .interior {
+    padding-top:230px !important;
+  }
+  .gameplay-controller.full .interior.textLeft {
+    width:347px !important;
+  }
+  
+  .gameplay-controls {
+    background: transparent url('../img/gp-controls-bg-398x600.jpg') no-repeat 0 0; 
+  } 
+  .gameplay-controls2 {
+    background: #000 url('../img/gp-controls-bg-398x600.jpg') no-repeat 0 0; 
+    height:670px;
+  }  
+  .gameplay-controls.full .interior {
+    padding-top:30px;
+  }
+  .gameplay-controls2.full .interior {
+    padding-top:250px !important;
+  }
+  .gameplay-controls.full .interior.textLeft {
+    width:347px;
+  }
+  .gameplay-controls2 img.onSteamBanner {margin-top:30px;}
+  
+  
+  section.open-exhibits {
+    background: transparent url('../img/open-exhibits-bg-398x600.jpg') no-repeat 0 0; 
+  }
+  .open-exhibits.full .interior {
+    padding-top:230px !important;
+  }
+  .open-exhibits.full .interior.textLeft {
+    width:347px !important;
+  }
+  
+  section.gestureworks-core {
+    background: transparent url('../img/gw-visualizer-398x600.jpg') no-repeat 0 0; 
+  }
+  .gestureworks-core.full .interior {
+    padding-top:20px;
+  }
+  .gestureworks-core.full .interior.textLeft {
+    width:347px;
+  }
+  
+  
+  #home section h2 { 
+    font-size: 30px !important;
+    /*text-shadow: 4px 4px 4px black;*/
+  }
+  #home section p {
+    /*text-shadow: 2px 2px 2px black;*/
+  }
+  
+  .full .interior.textRight {
+    float:left !important;    
+    padding-left:30px !important;
+    padding-right: 20px !important;
+    width:338px !important;
+  }
+  .full .interior.textLeft {
+    float:left;
+    padding-left:30px !important;
+    padding-right: 20px !important;
+    width:338px !important;
+  }
+  
+  #footer-container footer section.leftFooter {
+    padding: 2% 0 0 4% !important;
+    width: 90%;
+  }
+  #footer-container footer section.rightFooter {
+    padding: 30px 0 0 0 !important;
+    width: 100%;
+  }
+  
+  #footer-container footer section ul.leftFooterNav {
+    float:left;
+    margin:0 20% 20px 0;
+    width:40%;
+  }
+  #footer-container footer section ul.rightFooterNav {
+    float:right;
+    margin:20px 0 20px 0;
+    width:35%;
+  }
+  #footer-container footer section.rightFooter .branding {
+    right: 0%;
+  }
+  #footer-container footer section.rightFooter .shareWrap {
+    margin-top:20px;
+  }
+  
+  
+  section article .fullWidthImageWithText.workshop p {
+    color: #fff;
+    padding-top: 25px;
+    margin: 0 auto;
+    width: 90%;
+  }
+  
+  section article .threeColumnWrap {
+    width: 358px;
+  }
+  section article .threeColumnWrap .column {
+    margin: 0 20px 20px 0;
+    overflow-x: hidden;
+    width: 358px;
+  }
+  section article .threeColumnWrap img {
+    width:358px;
+  }
+  
+  #main-menu .nav ul li:hover ul.sub-menu, #main-menu .nav ul li:focus ul.sub-menu {
+    position: relative;
+  }
+  #main-menu .nav ul ul.sub-menu {
+    left: 0px;
+    top: 0;
+  }
+
+
+  #about  .interior.textLeft, #contact .interior.textLeft, #icons-fonts .interior.textLeft  { width: 100%; }
+  
+  /* begin About page */
+  
+  #about #bg-about-home {
+	  background: url("../img/about-home.jpg") 350px 45px no-repeat; background-size: 70%; }
+  #about #bg-what-is-gw { background: url("../img/about-gw-atom.png") 380px 70px no-repeat; background-size: 60%; }
+  #about section { padding-top: 25px; padding-bottom: 25px; }
+  #about #bg-gestureworks-devices { background: url("../img/about-gw-molecule.png") 452px -6px no-repeat; }
+  #about #bg-your-language { background: url("../img/about-gw-languages.png") 460px 5px no-repeat; background-size: 40%; }
+
+  /* end About page */
+  
+  
+  
+  /* begin flash and Key pages */
+  
+  #letterContainer {background-size: 100%; width: 737px; }
+  #letterContainer #inner {background-size: 100%;}
+  #letterContainer #bottom {background-size: 100%;}
+  #letterContainer #logo-flash-to-openexhibits {background-size: 90%; margin-left:-20px;}
+  
+  /* end flash and Key pages */
+  
+  
+  
+  /* begin contact page */
+  
+  #contact form ul li input.submit.btn { right: 55px;width: 95px; }
+  .interior.textLeft { width: 61%; }
+  #contact .interior.textLeft {padding-left:0; line-height:35px; margin-bottom: -8px;}
+  
+  /* end contact page */
+  
+  
+  /* begin core page */
+  
+  .core.page-header h1 { margin-left:0; line-height:38px; margin-bottom: -8px;}  
+  .corePage .full .interior {padding-top: 0px !important;}
+  .corePage .tables-walls.full .interior {padding-top: 19px !important;} 
+  .corePage .colHalf .interior {width: 368px; padding: 7px 0 20px 30px;}
+  .corePage .colHalf .interior br {display:none;}
+  .full .interior.textLeft {width: 325px !important;}
+  .corePage .devices-os.full {height: 625px;}
+  .corePage .devices-os.full .interior.textRight {display:none;}
+  .corePage .devices-os.full .interior {padding-top:0;}
+  
+  .corePage .tables-walls.full .interior.textLeft {width: 330px !important;}
+  .corePage .tables-walls.full .interior.textRight {background-color:#000;width: 348px !important;border-bottom: 1px solid #fff;margin-top: -25px;padding-top:0px;}
+  .corePage .tables-walls.full .interior.textLeft h2 br {display:none;}
+  .corePage section.halfs {padding: 0 0 0 0;width: 398px;}
+  .colHalf.authoring { margin-top:-25px;}
+  
+  .colHalf.core {background: #000 url('../img/core-half-bg-559x480.jpg') no-repeat 100px 0; width:100%;}
+  .colHalf .interior h3 {padding-right:10px}
+  .colHalf.support {background:none; background-color: #6a8fb9; }
+  .colHalf.authoring {background: #34465d url('../img/authoring-half-bg-559x480.jpg') no-repeat 0 0px; background-size: auto; width: 100%; }
+  .colHalf.hci-engine {background: #282828 url('../img/hci-engine-half-bg-559x480.jpg') no-repeat 170px 0; width: 100%; }
+  
+   /* end core page */
+   
+   
+   #letterContainer {background:none; width:100%;}
+   #letterContainer #inner {background: none; padding: 15px 36px 30px 36px;}  
+   #letterContainer #logo-gestureKey, #letterContainer #logo-gameplay{background-size: 90%;}
+  
+  /* begin legal page */
+  
+  #terms_of_use header.page-header h1 { line-height:38px; margin-bottom: -8px; }
+  
+  /* end legal page */
+  
+  
+  
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1200px) and (min-width: 767px) {
+
+  #header-container { width:767px; }
+  #header-container .wrapper { width:767px; }
+  
+  .phoneOnly {display:none !important;}
+  .mobileOnly {display:block !important;}
+  .desktopOnly {display:none !important;}
+  .desktopAndMobile{display:block !important;}
+  .phoneAndMobile{display:block !important;}
+
+  /* ====================
+    INTERMEDIATE: Menu
+   ==================== */
+  #main-menu { clear:both; }
+  nav { float:left !important; width:768px; }
+  nav ul {float: left; margin: 0; padding: 0; width: 768px;}
+  nav ul li { clear: none; width: 100%;}
+  nav ul li.half { float: left; margin-right: 1px; width:383px; }
+  nav ul li ul li.half {width:382px;}
+  #main-menu .nav ul li:hover ul.sub-menu, #main-menu .nav ul li:focus ul.sub-menu {width: 766px;}
+  nav ul li a { background-color: #e7e7e7; float:left; margin:0 0 1px 0; padding:2%;text-align:left; width: 96%; }  	
+  nav li:first-child a{ margin-left:0; }
+  nav li:last-child a.hasDropDown{ height: 14px; padding-top: 11px; }
+  nav li:last-child  a{ margin-right:0; }
+  
+  	
+  /* ========================
+      INTERMEDIATE: IE Fixes
+     ======================== */
+  
+	nav ul li{
+		display:block;
+	}	
+	.oldie nav a{
+		margin:0 0.7%;		
+	}
+  	
+  
+
+  /* interior and page-specific mods */
+  #icons-fonts .page-header {
+    max-width:767px;
+    overflow: hidden;
+  }
+  header.page-header h1 {
+    font-size:40px;
+    margin: 0px;
+    text-align:center;
+    width:100%;
+  }
+  main .container {
+    max-width:767px;
+  }
+  section {
+    padding: 25px 20px;
+    width: 727px;
+  }
+  section h2 {
+    margin-top:20px !important;
+  }
+  .interior.textLeft {
+    float: left;
+    height: 100%;
+    width: 70%;
+  }
+  .interior.imgRight {
+    float: right;
+    width: 28%;
+  }
+  .interior.imgRight img {
+    max-width:100%;
+  }
+  .interior.textLeft.SM {
+    float: left;
+    width: 70%;
+  }
+  .clearTitle { margin-top:0;}
+  
+  .interior.imgRight.LG {
+    float: right;
+    width: 28%;
+  }
+  
+  .caption {text-align: left;}
+  
+  
+  
+  /* home and general mods */
+  body {
+    background-color: #e5e7ea !important;
+    border-left:2px solid #fff;
+    border-right:2px solid #fff;
+    margin: 0 auto;
+    width: 767px;
+  }
+  
+  .colThird {
+    height: 380px !important;
+    max-width: 100%;
+    overflow: hidden;
+    width: 255px;
+  }
+  .colThird.center {
+    border-bottom:2px solid #fff;
+    border-left:0px !important;
+    border-right:0px !important;
+    border-top:2px solid #fff;
+    height: 380px !important;
+    margin-top:-2px;
+    max-width:256px; 
+    width:256px !important;
+  }
+  
+  .colThird .interior {
+    width: 236px;
+    padding: 144px 10px 0px 10px;
+  }
+  .colThird.center .interior {
+    width: 237px;
+  }
+  .colThird h3 {
+    font-size: 24px;
+  }
+  section.thirds {
+    padding:0 !important;
+    width:767px !important;
+  }
+  
+  .colThird.tumblr-blog {
+    background: #34465d url('../img/blog-tumbler-bg-399x400.jpg') no-repeat -70px -20px;
+  }
+  
+  .wrapper {
+    width: 767px;
+  }
+  
+  section.slider {
+    padding:0; width:767px;
+  }
+  
+  .full {
+    max-width:100% !important;
+  }
+  
+  section img.sectionLogo {
+    max-width:70%;
+  }
+  
+  
+  section img.sectionLogo {
+    max-width: 100%;
+  }
+  section.gameplay-controller {
+    background-position-x: -200px !important;
+  }
+  .gameplay-controller.full .interior {
+    padding-top:40px !important;
+  }
+  .gameplay-controller .steamBannerWrap {
+    margin-left:-7px;
+  }
+  
+  section.gameplay-controls {
+    background-position-x: -150px !important;
+  }
+  .gameplay-controls.full .interior {
+    padding-top:110px !important;
+  }
+  .gameplay-controls.full .interior.textRight {
+    float:right !important;
+  }
+  .gameplay-controls2 img.onSteamBanner {margin-top:30px;}
+  .gameplay-controls2.full .interior.onSteamMod {margin-top:-30px;}
+  
+  section.open-exhibits {
+    background-position-x: -300px !important;
+  }
+  .open-exhibits.full .interior {
+    padding-top:80px !important;
+  }
+  
+  section.gestureworks-core {
+    background-position-x: -240px !important;
+    background-position-y: 0px !important;
+    opacity: 1.0;
+  }
+  .gestureworks-core.full .interior {
+    padding-top:100px !important;
+  }
+  .gestureworks-core.full .interior.textRight {
+    float:right !important;
+  }
+  
+  #home section h2 { 
+    font-size: 30px !important;
+    text-shadow: none;;
+  }
+  #home section p {
+    text-shadow: none;
+  }
+  
+  .full .interior.textRight {
+    float:left !important;    
+    padding-left:30px !important;
+    padding-right: 20px !important;
+    width:338px !important;
+  }
+  .full .interior.textLeft {
+    float:left;
+    padding-left:30px !important;
+    padding-right: 20px !important;
+    width:338px !important;
+  }
+  
+  
+  
+  /* begin About page */
+  
+  #about #bg-about-home {
+	  background: url("../img/about-home.jpg") 350px 45px no-repeat; background-size: 70%; }
+  #about #bg-what-is-gw { background: url("../img/about-gw-atom.png") 380px 70px no-repeat; background-size: 60%; }
+  #about section { padding-top: 25px; padding-bottom: 25px; }
+  #about #bg-gestureworks-devices { background: url("../img/about-gw-molecule.png") 452px -6px no-repeat; }
+  #about #bg-your-language { background: url("../img/about-gw-languages.png") 460px 5px no-repeat; background-size: 40%; }
+
+  /* end About page */
+  
+  
+  
+  /* begin flash and Key pages */
+  
+  #letterContainer {background-size: 100%; width: 737px; }
+  #letterContainer #inner {background-size: 100%;}
+  #letterContainer #bottom {background-size: 100%;}
+  #letterContainer #logo-flash-to-openexhibits {background-size: 90%; margin-left:-20px;}
+  
+  /* end flash and Key pages */
+  
+  
+  
+  /* begin contact page */
+  
+  #contact form ul li input.submit.btn { right: 55px;width: 95px; }
+  .interior.textLeft { width: 61%; }
+  
+  /* end contact page */
+  
+  
+  /* begin core page */
+  .core.page-header h1 {margin-left:0;}
+  line-height:35px; margin-bottom: -8px;
+  .corePage .full .interior {padding-top: 0px !important;}
+  .corePage .devices-os.full .interior {padding-top: 0px !important;}
+  .corePage .tables-walls.full .interior {padding-top: 25px !important;}
+  .full .interior.textLeft {width: 325px !important;}
+  .corePage .tables-walls.full .interior.textLeft {width: 330px !important;}
+  .corePage .tables-walls.full .interior.textRight {width: 330px !important;}
+  .corePage .tables-walls.full .interior.textLeft h2 br {display:none;}
+  .corePage .devices-os.full .interior.textLeft ul li {font-size:14px;}
+  .corePage section.halfs {padding: 0 0 0 0;width: 767px;}
+  .colHalf.authoring { margin-top:-25px;}
+  .colHalf.core {background: #000 url('../img/core-half-bg-559x480.jpg') no-repeat 100px 0; width:100%;}
+  .colHalf.support {background: #6a8fb9 url('../img/support-half-bg-559x480.jpg') no-repeat 5px -50px; background-size: 100%; width:100%;}
+  .colHalf.authoring {background: #34465d url('../img/authoring-half-bg-559x480.jpg') no-repeat 0 -125px; background-size: 100%; width: 100%; }
+  .colHalf.hci-engine {background: #282828 url('../img/hci-engine-half-bg-559x480.jpg') no-repeat 170px 0; width: 100%; }
+  
+   /* end core page */
+   
+   
+   
+  #footer-container footer section.leftFooter {
+    padding: 2% 0 0 4% !important;
+    width: 90%;
+  }
+  #footer-container footer section.rightFooter {
+    padding: 30px 30px 0 0 !important;
+    width: 100%;
+  }
+  
+  #footer-container footer section ul.leftFooterNav {
+    float:left;
+    margin:0 20% 20px 0;
+    width:40%;
+  }
+  #footer-container footer section ul.rightFooterNav {
+    float:right;
+    margin:20px 5% 20px 0;
+    width:30%;
+  }
+  #footer-container footer section.rightFooter .branding {
+    right: 5%;
+  }
+  #footer-container footer section.rightFooter .shareWrap {
+    margin-top:20px;
+  }
+  
+  
+  section article .fullWidthImageWithText.workshop p {
+    color: #fff;
+    padding-top: 25px;
+    margin: 0 auto;
+    width: 90%;
+  }
+  
+  section article .threeColumnWrap {
+    width: 358px;
+  }
+  section article .threeColumnWrap .column {
+    margin: 0 20px 20px 0;
+    overflow-x: hidden;
+    width: 358px;
+  }
+  section article .threeColumnWrap img {
+    width:358px;
+  }
+  
+  #main-menu .nav ul li:hover ul.sub-menu, #main-menu .nav ul li:focus ul.sub-menu {
+    position: relative;
+  }
+  #main-menu .nav ul ul.sub-menu {
+    left: 0px;
+    top: 0;
+  }
+  
+  .interior.textLeft.SM {
+    float: left;
+    width: 70%;
+  }
+  .interior.imgRight.LG {
+    float: right;
+    width: 28%;
+  }
+  .interior.imgRight img {
+    max-width: 100%;
+  }
+  
+  section article .threeColumnWrap {
+    width: 727px;
+  }
+  section article .threeColumnWrap .column {
+    width: 228px;
+  }
+
+}
