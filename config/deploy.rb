@@ -1,5 +1,5 @@
 set :application, 'gestureworks-site-2013'
-set :repo_url, 'ssh://github.com:glasswork/gestureworks-site-2013.git'
+set :repo_url, 'ssh://git@github.com/glasswork/gestureworks-site-2013.git'
 
 # ask :branch, proc { `git rev-parse --abbrev-ref HEAD`.chomp }
 
@@ -32,7 +32,7 @@ end
 namespace :assets do
   desc 'Build assets'
   task :build do
-    on roles(:web) do
+    on roles(:web app) do
       within release_path do
         execute :npm, :install
         execute :bower, :install
